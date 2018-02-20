@@ -26,6 +26,12 @@ Below you can find the requirement draft:
 The previous developer of “*The Gate of Ishtar*” is working in a different section nowadays (he realized that his passion lies in graphic design) and claims that the solutions is almost ready to release. You are now the new developer of this feature!
 <br>
 Your job is to deliver the code and from now on, you are the ***responsible go-to-person*** for this solution. ***This is a solution you will have to put your name on*** as the creator of “*The Gate Of Ishtar*”.
+<br>
+<br>
+This should be already given by the nature of any programming assignment, I might even offend your glorious ***programmer's ego*** if I remind you this!
+<br>
+<br>
+~~You are a software developer not someone who happens to know a programming language and hack something together (does this remind you of our previous developer who happened to be a graphic designer!). Your future is intertwined with how well you apply good software practices and avoid code smells! After all every natural born software developer respects that!~~
 
 # Instructions
 You will find more details about your assignment if you check the previous developers code. You can make any modifications or suggestions for modifications that you see fit.
