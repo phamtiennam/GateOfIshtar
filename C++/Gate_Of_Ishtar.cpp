@@ -272,31 +272,19 @@ int main()
   vector<string> strVec = {"2018-06-13 22:30", "2018-06-13 20:00", "2018-06-13 12:58", "2018-06-13 10:45",
                            "2018-06-14 07:45", "2018-06-15 07:45", "2018-06-16 07:45","2018-06-19 07:45",
                           "2018-06-13 07:45","2018-06-12 07:45","2018-06-20 07:45","2018-06-22 07:45" };
-  
-  vector<string> strVec1 = {"2018-07-xx 0x:xx"};
-<<<<<<< HEAD
-  
+  vector<string> strVec2 = {"2018-07-xx 0x:xx"}; 
+ 
   vector<string> strVec2 = {"2018-06-13 07:30", "2018-06-13 07:21", "2018-06-13 07:58", "2018-06-13 07:45"};
  
   cout<<"==========Test1:Check normal flow============== \n";
   cout<<"Total Damage is:"<<calculate_champion_health("humAN",&strVec)<<endl;
   cout<<"==========Test1a:Check magical champion============== \n";
-  cout<<"Total Damage is:"<<calculate_champion_health("spirit",&strVec)<<endl;
   cout<<"==========Test2:Check wrong input champion's name==============  \n";
   cout<<"Total Damage is:"<<calculate_champion_health("Zhuman",&strVec)<<endl;
   cout<<"==========Test3:Check wrong date_string_intervals==============  \n";
   cout<<"Total Damage is:"<<calculate_champion_health("wizard",&strVec1)<<endl;
   cout<<"==========Test4:Check if champion loses HP once every hour==============  \n";
   cout<<"Total Damage is:"<<calculate_champion_health("giant",&strVec2)<<endl;
-=======
- 
-  cout<<"==========Test1============== \
-         Total Damage is:"<<calculate_champion_health("humAN",&strVec)<<endl;
-  cout<<"==========Test2==============  \
-         Total Damage is:"<<calculate_champion_health("Zhuman",&strVec)<<endl;
-  cout<<"==========Test3==============  \
-         Total Damage is:"<<calculate_champion_health("wizard",&strVec1)<<endl;
->>>>>>> 031e6c813a116c4292712341899e9af3e4c9b192
   
   return 0;
 }
