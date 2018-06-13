@@ -272,13 +272,13 @@ int main()
   vector<string> strVec = {"2018-06-13 22:30", "2018-06-13 20:00", "2018-06-13 12:58", "2018-06-13 10:45",
                            "2018-06-14 07:45", "2018-06-15 07:45", "2018-06-16 07:45","2018-06-19 07:45",
                           "2018-06-13 07:45","2018-06-12 07:45","2018-06-20 07:45","2018-06-22 07:45" };
-  vector<string> strVec2 = {"2018-07-xx 0x:xx"}; 
- 
+  vector<string> strVec1 = {"2018-07-xx 0x:xx"}; 
   vector<string> strVec2 = {"2018-06-13 07:30", "2018-06-13 07:21", "2018-06-13 07:58", "2018-06-13 07:45"};
  
   cout<<"==========Test1:Check normal flow============== \n";
   cout<<"Total Damage is:"<<calculate_champion_health("humAN",&strVec)<<endl;
   cout<<"==========Test1a:Check magical champion============== \n";
+  cout<<"Total Damage is:"<<calculate_champion_health("spirit",&strVec)<<endl;
   cout<<"==========Test2:Check wrong input champion's name==============  \n";
   cout<<"Total Damage is:"<<calculate_champion_health("Zhuman",&strVec)<<endl;
   cout<<"==========Test3:Check wrong date_string_intervals==============  \n";
